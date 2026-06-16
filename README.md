@@ -34,3 +34,25 @@ Thoracic (reference noise) → Adaptive Filter → subtract from Abdominal (prim
 - MISO: more filtering stages → cleaner output than SISO
 
 ## Files
+├── new_siso.m       # SISO implementation (LMS, NLMS, LLMS)
+
+├── new_miso.m       # MISO implementation (LMS, NLMS, LLMS)
+
+├── convm.m          # Convolution matrix utility
+
+└── foetal_ecg.dat   # Dataset
+
+## How to Run
+```matlab
+% SISO
+run('new_siso.m')
+
+% MISO
+run('new_miso.m')
+```
+
+## Tech
+MATLAB · Adaptive Filtering · Digital Signal Processing · Biomedical Engineering
+
+## Authors
+Ankush Badgujar & Jigyas Arora — VIT Chennai (ECE2006, Nov 2020)
