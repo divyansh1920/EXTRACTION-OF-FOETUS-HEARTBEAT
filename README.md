@@ -55,4 +55,4 @@ run('new_miso.m')
 MATLAB · Adaptive Filtering · Digital Signal Processing · Biomedical Engineering
 
 ## Authors
-Ankush Badgujar & Jigyas Arora — VIT Chennai (ECE2006, Nov 2020)
+Divyansh Jain
